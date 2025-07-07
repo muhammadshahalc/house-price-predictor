@@ -1,20 +1,31 @@
 # 🏠 House Price Prediction App
 
-A machine learning-powered web application built with Streamlit to predict house prices across major Indian cities.
+🔗 **Live Demo:** [ml-house-price-predictor.streamlit.app](https://ml-house-price-predictor.streamlit.app/)
 
-![App Demo](screenshot.png)
+A machine learning web app built with Streamlit to predict house prices across major Indian cities based on user inputs.
+
+---
+
+### 🔍 Features
+- Predicts house prices using a trained Random Forest Regression model.
+- Clean and interactive Streamlit interface.
+- Fast predictions using pre-trained `.pkl` files.
 
 ---
 
-## Features
-- **Accurate Predictions**: Trained Random Forest Regression model for estimating housing prices.
-- **Interactive UI**: Clean, user-friendly Streamlit interface to input property details like BHK, location, area, etc.
-- **Quick Deployment**: Uses `.pkl` model files for fast and easy startup.
+### 💻 Tech Stack
+- Python
+- Streamlit
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib / Seaborn (for data exploration)
 
 ---
-## Installation
-1. Clone the repository and enter its directory.  
-2. (Optional) Create and activate a virtual environment.  
-3. Install required Python packages:  
-   ```bash
-   pip install -r requirements.txt
+
+### 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/house-price-predictor.git
+cd house-price-predictor
+pip install -r requirements.txt
+streamlit run app.py
